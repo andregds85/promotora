@@ -112,7 +112,7 @@
     <!-- Main Footer -->
     <footer class="main-footer">
        
-        <strong>Secretaria de Estado da Saúde  &copy; <?php echo '20'. $hoje=date('y'); ?> 
+        <strong>Sul Promotora de crédito &copy; <?php echo '20'. $hoje=date('y'); ?> 
     </footer>
 </div>
 
