@@ -17,11 +17,14 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'categorias_id',
-        'macro',
-        'perfil',
         'cpf',
         'telefone',
+        'whatsapp',
+        'banco',
+        'tipoConta',
+        'agencia',
+        'conta',
+        'pix',
 
     ];
 
