@@ -8,42 +8,12 @@ php artisan migrate:reset
 
 php artisan make:seeder PermissionTableSeeder
 
-
 php artisan db:seed --class=PermissionTableSeeder
-
-
-php artisan make:seeder macroSeeder
-
-php artisan db:seed --class=macroSeeder
-
 
 
 php artisan make:seeder CreateAdminUserSeeder
 
-
 php artisan db:seed --class=CreateAdminUserSeeder
-
-
-
-php artisan make:seeder CategoriaSeederM2
-php artisan db:seed --class=CategoriaSeederM2
-
-
-
-
-1	CER MACRO FOZ DO RIO ITAJAI 42C65 / certo
-2	CER MACRO GF POLIS 42C15 /  certo 
-3	CER MACRO GOESTE 42C56  /  certo    
-4	CER MACRO MEIO OESTE 42C58  /  certo 
-5	CER MACRO NORDESTE 42C68 / certo
-6	CER MACRO SERRA 42C70  / 
-7	CER MACRO SUL 42C67
-8	CER MACRO VALE DO ITAJAI 42C63
-
-
-
-
-
 
 
 Criar uma Model e Migrations

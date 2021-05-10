@@ -70,11 +70,6 @@
                             <div class="col-md-6">
                                 <input id="cpf" type="text" class="form-control @error('cfp') is-invalid @enderror" name="cpf" value="{{ old('cpf') }}" required autocomplete="cpf" autofocus>
 
-                                @error('cpf')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
                             </div>
                         </div>
 
@@ -90,16 +85,8 @@
                             <div class="col-md-6">
                                 <input id="telefone" type="text" class="form-control @error('telefone') is-invalid @enderror" name="telefone" value="{{ old('telefone') }}" required autocomplete="telefone" autofocus>
 
-                                @error('telefone')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
                             </div>
                         </div>
-
-
-
 
                         
 
@@ -111,11 +98,7 @@
                             <div class="col-md-6">
                                 <input id="whatsApp" type="text" class="form-control @error('whatsApp') is-invalid @enderror" name="whatsApp" value="{{ old('whatsApp') }}" required autocomplete="whatsApp" autofocus>
 
-                                @error('whatsApp')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                          
                             </div>
                         </div>
 
@@ -126,12 +109,7 @@
 
                             <div class="col-md-6">
                                 <input id="banco" type="text" class="form-control @error('banco') is-invalid @enderror" name="banco" value="{{ old('banco') }}" required autocomplete="banco" autofocus>
-
-                                @error('banco')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                          
                             </div>
                         </div>
 
@@ -146,11 +124,7 @@
                             <div class="col-md-6">
                                 <input id="tipoConta" type="text" class="form-control @error('tipoConta') is-invalid @enderror" name="tipoConta" value="{{ old('tipoConta') }}" required autocomplete="tipoConta" autofocus>
 
-                                @error('tipoConta')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                           
                             </div>
                         </div>
 
@@ -164,11 +138,7 @@
                             <div class="col-md-6">
                                 <input id="agencia" type="text" class="form-control @error('agencia') is-invalid @enderror" name="agencia" value="{{ old('agencia') }}" required autocomplete="agencia" autofocus>
 
-                                @error('agencia')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                           
                             </div>
                         </div>      
 
@@ -182,11 +152,7 @@
                             <div class="col-md-6">
                                 <input id="conta" type="text" class="form-control @error('conta') is-invalid @enderror" name="conta" value="{{ old('conta') }}" required autocomplete="conta" autofocus>
 
-                                @error('conta')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                             
                             </div>
                         </div>    
 
@@ -200,11 +166,7 @@
                             <div class="col-md-6">
                                 <input id="pix" type="text" class="form-control @error('pix') is-invalid @enderror" name="pix" value="{{ old('pix') }}" required autocomplete="conta" autofocus>
 
-                                @error('pix')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                           
                             </div>
                         </div>  
 

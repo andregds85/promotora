@@ -16,14 +16,14 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->string('categorias_id')->nullable();
-            $table->string('macro')->nullable();
-            $table->string('perfil')->nullable();
             $table->string('cpf')->nullable();
             $table->string('telefone')->nullable();
-
-
-            $table->timestamps();
+            $table->string('banco')->nullable();
+            $table->string('tipoConta')->nullable();
+            $table->string('pix')->nullable();
+            $table->string('perfil')->nullable();
+       
+           $table->timestamps();
         });
     }
 
