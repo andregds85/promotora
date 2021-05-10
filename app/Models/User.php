@@ -19,12 +19,12 @@ class User extends Authenticatable
         'password',
         'cpf',
         'telefone',
-        'whatsapp',
+        'whatsApp',
         'banco',
         'tipoConta',
         'agencia',
         'conta',
-        'pix',
+        'pix' 
 
     ];
 
@@ -39,3 +39,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 }
+
+
+
+
+
