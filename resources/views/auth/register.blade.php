@@ -108,7 +108,7 @@
                             <label for="banco" class="col-md-4 col-form-label text-md-right">{{ __('Banco') }}</label>
 
                             <div class="col-md-6">
-                                <input id="banco" type="text" class="form-control @error('banco') is-invalid @enderror" name="banco" value="{{ old('banco') }}" required autocomplete="banco" autofocus>
+                                <input id="banco" type="text" class="form-control @error('banco') is-invalid @enderror" name="banco" value="{{ old('banco') }}" >
                           
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                             <label for="tipoConta" class="col-md-4 col-form-label text-md-right">{{ __('Tipo da Conta') }}</label>
 
                             <div class="col-md-6">
-                                <input id="tipoConta" type="text" class="form-control @error('tipoConta') is-invalid @enderror" name="tipoConta" value="{{ old('tipoConta') }}" required autocomplete="tipoConta" autofocus>
+                                <input id="tipoConta" type="text" class="form-control @error('tipoConta') is-invalid @enderror" name="tipoConta" value="{{ old('tipoConta') }}" >
 
                            
                             </div>
@@ -136,7 +136,7 @@
                             <label for="agencia" class="col-md-4 col-form-label text-md-right">{{ __('Agência') }}</label>
 
                             <div class="col-md-6">
-                                <input id="agencia" type="text" class="form-control @error('agencia') is-invalid @enderror" name="agencia" value="{{ old('agencia') }}" required autocomplete="agencia" autofocus>
+                                <input id="agencia" type="text" class="form-control @error('agencia') is-invalid @enderror" name="agencia" value="{{ old('agencia') }}">
 
                            
                             </div>
@@ -150,7 +150,7 @@
                             <label for="conta" class="col-md-4 col-form-label text-md-right">{{ __('Conta') }}</label>
 
                             <div class="col-md-6">
-                                <input id="conta" type="text" class="form-control @error('conta') is-invalid @enderror" name="conta" value="{{ old('conta') }}" required autocomplete="conta" autofocus>
+                                <input id="conta" type="text" class="form-control @error('conta') is-invalid @enderror" name="conta" value="{{ old('conta') }}">
 
                              
                             </div>
@@ -164,7 +164,7 @@
                             <label for="pix" class="col-md-4 col-form-label text-md-right">{{ __('Pix') }}</label>
 
                             <div class="col-md-6">
-                                <input id="pix" type="text" class="form-control @error('pix') is-invalid @enderror" name="pix" value="{{ old('pix') }}" required autocomplete="conta" autofocus>
+                                <input id="pix" type="text" class="form-control @error('pix') is-invalid @enderror" name="pix" value="{{ old('pix') }}">
 
                            
                             </div>
